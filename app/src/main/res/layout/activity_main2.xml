@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <!--        <com.kangyj.carnameselect.view.LabelView-->
+        <!--            xmlns:lv="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            lv:lv_fill_triangle="true"-->
+        <!--            lv:lv_text="新"-->
+        <!--            lv:lv_text_size="12sp"/>-->
+
+        <com.kangyj.carnameselect.view.LabelView xmlns:lv="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            lv:lv_background_color="#b9b9b9"
+            lv:lv_fill_triangle="true"
+            lv:lv_gravity="TOP_RIGHT"
+            lv:lv_text="已撤销"
+            lv:lv_text_size="12sp" />
+
+        <!--        <com.kangyj.carnameselect.view.LabelView-->
+        <!--            xmlns:lv="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="bottom|left"-->
+        <!--            lv:lv_background_color="#F6CE59"-->
+        <!--            lv:lv_fill_triangle="true"-->
+        <!--            lv:lv_gravity="BOTTOM_LEFT"-->
+        <!--            lv:lv_text="Gank.io"-->
+        <!--            lv:lv_text_all_caps="false"-->
+        <!--            lv:lv_text_size="12sp"/>-->
+
+        <!--        <com.kangyj.carnameselect.view.LabelView-->
+        <!--            xmlns:lv="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="bottom|right"-->
+        <!--            lv:lv_background_color="#EC7263"-->
+        <!--            lv:lv_fill_triangle="true"-->
+        <!--            lv:lv_gravity="BOTTOM_RIGHT"-->
+        <!--            lv:lv_text="new"/>-->
+    </FrameLayout>
+</RelativeLayout>
